@@ -26,20 +26,18 @@ h1, h2{
     
 }
 #timer-text{
-  
-    
     font-size:60px;
     position: relative;
-    
-   
+
 }
 #history-camp{
     text-align: center;
     border-radius: 15px;
     display: inline-block;
    
-    height: 300px;
+    height: 80%;
     width: 90%;
+   
     background: rgb(0, 0, 53);
     overflow: auto;
    
@@ -67,4 +65,21 @@ h1, h2{
     color: white;
     background: rgb(190, 9, 9);
     cursor: pointer;
+}
+@media screen and (max-width: 500px)
+{
+  
+  #timer-text{
+    font-size:40px;
+    position: relative;
+
+}
+#timer-area{
+   
+    width: 80%;
+ 
+    
+    
+}
+
 }
